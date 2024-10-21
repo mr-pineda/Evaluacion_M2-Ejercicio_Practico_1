@@ -26,4 +26,6 @@ Propuesta de página web para el hospital Top Top Top. Esta consta de 3 páginas
 
 ## Estructura de carpetas y archivos
 
-- Los archivos .html estan en la raíz del directorio
+- Los archivos .html estan en la raíz del directorio.
+- En el directiorio assets se encuentran archivos multimedia utilizados en el sitio
+- En `css\styles.css` se encuentra el estilo de la página.
