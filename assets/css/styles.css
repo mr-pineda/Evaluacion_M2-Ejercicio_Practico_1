@@ -25,9 +25,19 @@ header {
   background-color: dodgerblue;
   border-bottom: 1px solid darkblue;
 }
-header img {
-  margin: 5px 0px 5px 10px;
+.logo_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 5px;
+  color: white;
 }
+header img {
+  height: 100%;
+  margin-right: 5px;
+}
+
 .appointment_btn {
   background-color: orange;
   border-radius: 10px;
@@ -151,10 +161,34 @@ footer h3 {
 
 /* Team Section */
 #team {
-  background-color: white;
+  background-color: dodgerblue;
+  color: white;
+  padding: 2rem 15rem;
 }
-#team h1 {
-  margin: 0 0;
+#team > h1 {
+  margin: 0 0 3rem 0;
+  text-align: center;
+  font-size: 2rem;
+}
+#team article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.doctor {
+  margin-bottom: 3rem;
+}
+.doctor img {
+  /* height: 100%; */
+  width: 5rem;
+  background-color: black;
+  flex: 1;
+  margin-right: 2rem;
+}
+.doctor > div {
+  height: 100%;
+  flex: 5;
+  margin-right: 2rem;
 }
 
 /* Testimonials */
